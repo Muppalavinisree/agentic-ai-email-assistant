@@ -1,0 +1,8 @@
+RULES FOR EMAIL AGENT:
+
+1. If an incoming email explicitly asks for a resume, the agent must send the relevant resume as an attachment.
+2. Resume selection must be based on the role mentioned in the email.
+3. If an email asks for confirmation before sending documents, reply politely and do not attach any files.
+4. If an email requests additional documents, attach all requested documents in the response.
+5. If an email is only informational or does not request any action, do not send a reply.
+6. All email responses must be professional, polite, and written from the perspective of a job applicant.
