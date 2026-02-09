@@ -5,14 +5,14 @@ The system uses a **cloud-based LLM (Groq)** combined with **Retrieval-Augmented
 
 ---
 
-## 🔹 Overview
+## Overview
 
 This project demonstrates a real-world **agentic AI workflow** where reasoning, retrieval, and execution are clearly separated.  
 The agent is designed to act as a **job applicant**, intelligently responding to emails based on predefined rules while ensuring safety, professionalism, and correctness.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Groq Cloud LLM**
@@ -24,7 +24,7 @@ The agent is designed to act as a **job applicant**, intelligently responding to
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 1. Incoming email or user request is analyzed for intent  
 2. Relevant context is retrieved using **RAG** (resumes, templates, rules)  
@@ -36,7 +36,7 @@ This ensures **controlled autonomy** instead of unrestricted AI behavior.
 
 ---
 
-## 🤖 Agentic Rules for Email Agent
+##  Agentic Rules for Email Agent
 
 The agent strictly follows the rules below before taking any action:
 
@@ -51,7 +51,7 @@ These rules are enforced at the **executor level**, ensuring deterministic behav
 
 ---
 
-## 🔍 Retrieval-Augmented Generation (RAG)
+## Retrieval-Augmented Generation (RAG)
 
 - RAG retrieves **resumes, templates, and contextual rules** before response generation.  
 - Retrieved context is injected into the LLM prompt at **inference time**, reducing hallucinations.  
@@ -60,14 +60,14 @@ These rules are enforced at the **executor level**, ensuring deterministic behav
 
 ---
 
-## 🔐 Security Practices
+## Security Practices
 
 - Email credentials are stored securely using **environment variables**  
 - No secrets are hardcoded in the codebase  
 - `.env` files are excluded from version control  
 
 ---
-## 📂 Project Structure
+## Project Structure
 agentic-ai-email-assistant/
 ├── agent.py
 ├── docs/
@@ -77,7 +77,7 @@ agentic-ai-email-assistant/
 
 ---
 
-## 🚀 Usage
+## Usage
 Run the agent and provide an email or natural language request.  
 The system autonomously decides whether to respond, attach documents, or take no action—based on agentic rules.
 
@@ -88,11 +88,11 @@ The system autonomously decides whether to respond, attach documents, or take no
 
 
 
-## 👤 Author
+##  Author
 **Vinisree Muppala**  
 Aspiring Software Engineer | Full Stack & Applied AI
 
 ---
 
-## 📜 License
+##  License
 This project is for educational and demonstration purposes.
