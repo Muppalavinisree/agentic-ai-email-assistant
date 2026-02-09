@@ -90,7 +90,7 @@ The system autonomously decides whether to respond, attach documents, or take no
 
 ##  Author
 **Vinisree Muppala**  
-Aspiring Software Engineer | Full Stack & Applied AI
+Aspiring Software Engineer | Applied AI
 
 ---
 
